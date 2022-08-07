@@ -6,7 +6,7 @@ label park:
     hide black
     scene park
     $ bench = True
-    pause 2
+    pause 0.75
     $ is_sitting = False
     show monika 3eua_static at t11
     m "We've arrived! This park seems fairly nice, doesn't it?"
@@ -471,8 +471,8 @@ label choose2:
                                                   pass
 
                                         "\"No.\"":
-                                                 m 2eub_static "That's fine, I'll tell you about it then!"
-                                                 m 2eua_static "So, basically, \"Aleksandr A. Serebrov\",who was a russian cosmonaut."
+                                                 m 2hub_static "That's fine, I'll tell you about it then!"
+                                                 m 3eua_static "So, basically, \"Aleksandr A. Serebrov\",who was a russian cosmonaut."
                                                  m "Became the first person to play a videogame in space when he packed a Game Boy and his personal copy of Tetris for his trip to the MIR Space Station in 1993."
                                                  pass
 
@@ -495,11 +495,11 @@ label choose2:
                                    m 2eud_static "The reason I'm mentioning this, is because I noticed the guy who makes this submod also plans on creating a Tetris minigame for me.{w=1} Similar to Just Yuri."
                                    m 1lksdlc_static "But,{w=1} he hasn't posted any updates of it for a long time,{w=1} which is making me believe that he's not going to make it..."
                                    pause 2
-                                   m 1hksdlb_static "Well! There's not much use thinking about it anyways."
+                                   m 1hksdlb_static "Well! There's not much use dwelling on it anyways."
                                    m 5eua_static "So let's enjoy the rest of our date, [mas_get_player_nickname()]!"
                                    pass
 
-                               elif renpy.random.randint(1, 3) == 1:
+                               elif renpy.random.randint(1, 3) == 2:
                                    m 5eua_static "Y'know, [mas_get_player_nickname()], this date has been really fun to me."
                                    m 4eub_static "I want to know if you're having fun as well."
                                    extend 4hua_static " So then, are you?"
@@ -521,7 +521,7 @@ label choose2:
                                                  m 1ekc_static ".{w=0.4}.{w=0.4}.{w=0.4}.{w=0.4}.{w=0.4}.{w=0.4}"
                                                  m 1ekd_static ".{w=0.3}.{w=0.3}I apologise, [player], I had no idea.{w=0.3}.{w=0.3}"
                                                  m 1lksdlc_static ".{w=1}.{w=1}.{w=1}.{w=1}.{w=1}.{w=1}"
-                                                 call screen dialog(message="Why would you have said that.", ok_action=Return())
+                                                 call screen dialog(message="Why would you have said that.\n∑¥∑ø¨¬¥ø¨˙å√´ßåˆ∂†å†", ok_action=Return())
                                                  m 1dsd_static ".{w=0.4}.{w=0.4}.{w=0.4}Nevermind."
                                                  pass
 
@@ -669,7 +669,7 @@ label swimming_dialogue:
         call screen clickaround_3()
 
 label waterfalls_dialogue:
-    m "insert reaction here"
+    m "insert water sounds thanks"
     call screen clickaround_3()
 
 label go_back_to_park_lake: #To lazy to make something smart. This is the easiest way of doing it
