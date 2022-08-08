@@ -25,8 +25,9 @@ label park:
     pause 0.75
     show monika 1hua_static at t11
     m 3eka_static "Hey.. [player]."
-    m "Mind if I talk about some stuffs?"
+    m "Mind if I talk about some stuffs?{nw}"
     menu:
+        m "Mind if I talk about some stuffs?{fast}"
         "\"I don't mind.\"":
                            pass
 
@@ -53,8 +54,23 @@ label park:
                        jump fav_pet_choice
 
             "\"I don't have a favourite.\"":
-                                           m ""
-                                           jump park_continue
+                                           m "Ahh~ that's alright, [player]."
+                                           m "Does that mean you have no interest in pets, or it's just that you cannot choose your favourite?{nw}"
+                                           menu:
+                                                m "Does that mean you have no interest in pets, or it's just that you cannot choose your favourite?{fast}"
+                                                "\"I'm not interested in pets.\"":
+                                                    m "Oh~ I see that's the case, that's alright, [player]."
+                                                    m "We all have different interests."
+                                                    m "I love spending time with you either way, y'know?"
+                                                    m "Well then, let's keep going then, perhaps what's going to happen will pique your interest!"
+                                                    jump park_continue
+
+                                                "\"I can't choose a favourite.\"":
+                                                    m "Ah~aha! I see that's the case, that's okay, [player]!"
+                                                    m "There are just so many pets out there, aren't there?"
+                                                    m "Most of them are easily lovable as well!"
+                                                    m "But even if you don't have a favourite, you can tell me which one you like more at the moment, yes?"
+                                                    jump fav_pet_choice
 
     elif renpy.random.randint(1, 3) == 2:
         m 3eub_static "did you know it's {i}almost{/i} impossible for most people to lick their own elbow?"
