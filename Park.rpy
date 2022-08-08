@@ -34,7 +34,13 @@ label park:
     m 3dsd_static "So.{w=0.4}.{w=0.4}.{w=0.4}.{nw}"
 
     if renpy.random.randint(1, 3) == 1:
-        m 3eud_static "Have you ever tried to hum while"
+        m 3eud_static "did you know you can’t hold your nose and hum?"
+        m "Don’t believe it? Give it a try!"
+        m "It's just as I said, right?"
+        m "It is because when you hum, you are actually exhaling, so if both your mouth and your nose is closed, the air can’t escape."
+        m "So, although you can hum for a very brief few second or two, you will be forced to open your mouth and catch your breath."
+        m "Ahaha~ that was fun, no?"
+        m "Well then, let's keep going now, [mas_get_player_nickname()]!"
         jump park_continue
 
     elif renpy.random.randint(1, 3) == 1:
