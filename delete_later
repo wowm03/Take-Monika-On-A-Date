@@ -1,0 +1,18 @@
+TODO: 1. water sounds for waterfall + my dialogues (im thankful for all the help :D)
+#2.last checkup, if not satisfied we can talk about it (touch-ups if you want)
+#3. maybe a break and you can announce anytime to start cafe
+
+#if we ever want to do releases for the submod:
+#here are some of my ideas,
+#1. codes clean up, thinking of using define just like extra plus main
+#example: define complies = [
+    #"Great.",
+    #"Keep it up, [player]!",
+    #"Good.",
+    #"Amazing, [player]!",
+    #]
+
+#2. more topics if we have to and if we have ideas
+#3. interactive areas if we want
+
+#ps. i have school starting from september
