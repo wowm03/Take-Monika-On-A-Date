@@ -710,7 +710,7 @@ label swimming_dialogue:
         call screen clickaround_3()
 
     else:
-        m "Help the editor." #im sorry i will change this soon
+        m "Like a river, life doesn't flow backward~"
         pass
         call screen clickaround_3()
 
