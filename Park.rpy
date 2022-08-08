@@ -37,6 +37,7 @@ label park:
     if renpy.random.randint(1, 3) == 1:
         m 3eud_static "did you know you can’t hold your nose and hum?"
         m 3eua_static "Don’t believe it? Give it a try!"
+        show monika 1hua_static at t11
         pause 2
         m 1eub_static "It's just as I said, right?"
         m 3eud_static "It is because when you hum, you are actually exhaling, so if both your mouth and your nose is closed, the air can’t escape."
@@ -54,22 +55,22 @@ label park:
                        jump fav_pet_choice
 
             "\"I don't have a favourite.\"":
-                                           m "Ahh~ that's alright, [player]."
-                                           m "Does that mean you have no interest in pets, or it's just that you cannot choose your favourite?{nw}"
+                                           m 2eka_static "Ahh~ that's alright, [player]."
+                                           m 3eud_static "Does that mean you have no interest in pets, or it's just that you cannot choose your favourite?{nw}"
                                            menu:
                                                 m "Does that mean you have no interest in pets, or it's just that you cannot choose your favourite?{fast}"
                                                 "\"I'm not interested in pets.\"":
-                                                    m "Oh~ I see that's the case, that's alright, [player]."
-                                                    m "We all have different interests."
-                                                    m "I love spending time with you either way, y'know?"
-                                                    m "Well then, let's keep going then, perhaps what's going to happen will pique your interest!"
+                                                    m 2hksdlb_static "Oh~ I see that's the case, that's alright, [player]."
+                                                    m 1eka_static "We all have different interests."
+                                                    m 2hua_static "I love spending time with you either way, y'know?"
+                                                    m 5eua_static "Well then, let's keep going then, perhaps what you'll see soon will pique your interest!"
                                                     jump park_continue
 
                                                 "\"I can't choose a favourite.\"":
-                                                    m "Ah~aha! I see that's the case, that's okay, [player]!"
-                                                    m "There are just so many pets out there, aren't there?"
-                                                    m "Most of them are easily lovable as well!"
-                                                    m "But even if you don't have a favourite, you can tell me which one you like more at the moment, yes?"
+                                                    m 2hub_static "Ah~aha! I see that's the case, that's okay, [player]!"
+                                                    m 3hua_static "There are just soo~ many pets out there, aren't there?"
+                                                    m 1hua_static "Most of them are easily lovable as well!"
+                                                    m 3eka_static "But even if you don't have a favourite, you can tell me which one you like more at the moment, yes?"
                                                     jump fav_pet_choice
 
     elif renpy.random.randint(1, 3) == 2:
@@ -737,6 +738,7 @@ label park_end:
     m 5eua_static "Let's go back for now, we have other chances of coming here again, after all!"
     m 1hua_static "Thank you for bringing me here, [mas_get_player_nickname()]."
     m 3hub_static "I hope that we can come back soon~!"
+    show monika 1hua_static at t11
     show black zorder 100 with Dissolve(5.0, alpha=True)
     stop music fadeout 2
     hide monika
