@@ -235,6 +235,14 @@ label fav_pet_choice:
                                              pass
 
                                 "\"Ferrets.\"":
+                                              m 2eua_static "Ahh~ those fluffy little guys, huh?"
+                                              m 3hub_static "They are small and domesticated species, and I've always wanted to see them myself!"
+                                              m 3eub_static "Did you know? That ferrets sometimes participate in their own races?"
+                                              m 3hua_static "Ferret racing is a particularly popular event in the UK. And instead of a racetrack, ferrets run through pipes."
+                                              m 2eua_static "The rules are simple; first ferret to make it to the opposite side of the pipe wins!"
+                                              m 1hua_static "Since ferrets are playful animals, they enjoy the games as well."
+                                              m 2eua_static "That was a fun fact of them, yes?"
+                                              m 5eua_static "Haha~ let's continue walking then~"
                                               pass
 
                                 "\"Tarantulas.\"":
