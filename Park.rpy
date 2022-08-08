@@ -246,13 +246,13 @@ label fav_pet_choice:
                                               pass
 
                                 "\"Tarantulas.\"":
-                                                 m "Spiders huh~"
-                                                 m "I think they're really fascinating creatures...y'know, since they can make spider webs and all!"
-                                                 m "I've came across some fun facts about them earlier..."
-                                                 m "One of them being people using spider webs to stop bleeding by putting them on their wounds centuries ago."
-                                                 m "Modern scientists discovered that spider webs contain Vitamin K, which is a coagulant that stops bleeding!"
-                                                 m "That was an interesting fact about them, no?"
-                                                 m "Well then, let's keep going!"
+                                                 m 1hua_static "Spiders huh~"
+                                                 m 3eub_static "I think they're really fascinating creatures...y'know, since they can make spider webs and all!"
+                                                 m 2eub_static "I've came across some fun facts about them earlier..."
+                                                 m 3eud_static "One of them being people using spider webs to stop bleeding by putting them on their wounds centuries ago."
+                                                 m 3hub_static "Modern scientists discovered that spider webs contain Vitamin K, which is a coagulant that stops bleeding!"
+                                                 m 2hua_static "That was an interesting fact about them, no?"
+                                                 m 5eua_static "Well then, let's keep going!"
                                                  pass
 
                                 "\"They are not in this list.\"":
