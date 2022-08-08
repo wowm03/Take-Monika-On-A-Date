@@ -35,12 +35,13 @@ label park:
 
     if renpy.random.randint(1, 3) == 1:
         m 3eud_static "did you know you can’t hold your nose and hum?"
-        m "Don’t believe it? Give it a try!"
-        m "It's just as I said, right?"
-        m "It is because when you hum, you are actually exhaling, so if both your mouth and your nose is closed, the air can’t escape."
-        m "So, although you can hum for a very brief few second or two, you will be forced to open your mouth and catch your breath."
-        m "Ahaha~ that was fun, no?"
-        m "Well then, let's keep going now, [mas_get_player_nickname()]!"
+        m 3eua_static "Don’t believe it? Give it a try!"
+        pause 2
+        m 1eub_static "It's just as I said, right?"
+        m 3eud_static "It is because when you hum, you are actually exhaling, so if both your mouth and your nose is closed, the air can’t escape."
+        m 3hua_static "So, although you can hum for a very brief few second or two, you will be forced to open your mouth and catch your breath."
+        m 2eub_static "Ahaha~ that was fun, no?"
+        m 5eua_static "Well then, let's keep going now, [mas_get_player_nickname()]!"
         jump park_continue
 
     elif renpy.random.randint(1, 3) == 1:
@@ -52,6 +53,7 @@ label park:
                        jump fav_pet_choice
 
             "\"I don't have a favourite.\"":
+                                           m ""
                                            jump park_continue
 
     elif renpy.random.randint(1, 3) == 2:
