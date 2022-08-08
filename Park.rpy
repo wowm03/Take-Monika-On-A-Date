@@ -246,6 +246,13 @@ label fav_pet_choice:
                                               pass
 
                                 "\"Tarantulas.\"":
+                                                 m "Spiders huh~"
+                                                 m "I think they're really fascinating creatures...y'know, since they can make spider webs and all!"
+                                                 m "I've came across some fun facts about them earlier..."
+                                                 m "One of them being people using spider webs to stop bleeding by putting them on their wounds centuries ago."
+                                                 m "Modern scientists discovered that spider webs contain Vitamin K, which is a coagulant that stops bleeding!"
+                                                 m "That was an interesting fact about them, no?"
+                                                 m "Well then, let's keep going!"
                                                  pass
 
                                 "\"They are not in this list.\"":
