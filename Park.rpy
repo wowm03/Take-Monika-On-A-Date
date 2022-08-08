@@ -241,6 +241,12 @@ label fav_pet_choice:
                                                  pass
 
                                 "\"They are not in this list.\"":
+                                                                m 2eud_static "Oh, well, "
+                                                                extend 3hua_static "that's still alright!"
+                                                                m 1eub_static "I'm glad you have a favourite pet either way."
+                                                                m 2eub_static "And plus, you'll just have to let me take a look of the pet when I finally cross over to your realty!"
+                                                                m 2hub_static "Hehe~ that would be so nice, yes?"
+                                                                m 5eua_static "Let's continue our walk now then!"
                                                                 pass
 
                                 "{b}{i}PREVIOUS{/i}{/b}":
