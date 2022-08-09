@@ -28,6 +28,7 @@ label park:
     m "Mind if I talk about some stuffs?{nw}"
     menu:
         m "Mind if I talk about some stuffs?{fast}"
+
         "\"I don't mind.\"":
                            pass
 
@@ -60,18 +61,18 @@ label park:
                                            menu:
                                                 m "Does that mean you have no interest in pets, or it's just that you cannot choose your favourite?{fast}"
                                                 "\"I'm not interested in pets.\"":
-                                                    m 2hksdlb_static "Oh~ I see that's the case, that's alright, [player]."
-                                                    m 1eka_static "We all have different interests."
-                                                    m 2hua_static "I love spending time with you either way, y'know?"
-                                                    m 5eua_static "Well then, let's keep going then, perhaps what you'll see soon will pique your interest!"
-                                                    jump park_continue
+                                                                                 m 2hksdlb_static "Oh~ I see that's the case, that's alright, [player]."
+                                                                                 m 1eka_static "We all have different interests."
+                                                                                 m 2hua_static "I love spending time with you either way, y'know?"
+                                                                                 m 5eua_static "Well then, let's keep going then, perhaps what you'll see soon will pique your interest!"
+                                                                                 jump park_continue
 
                                                 "\"I can't choose a favourite.\"":
-                                                    m 2hub_static "Ah~aha! I see that's the case, that's okay, [player]!"
-                                                    m 3hua_static "There are just soo~ many pets out there, aren't there?"
-                                                    m 1hua_static "Most of them are easily lovable as well!"
-                                                    m 3eka_static "But even if you don't have a favourite, you can tell me which one you like more at the moment, yes?"
-                                                    jump fav_pet_choice
+                                                                                 m 2hub_static "Ah~aha! I see that's the case, that's okay, [player]!"
+                                                                                 m 3hua_static "There are just soo~ many pets out there, aren't there?"
+                                                                                 m 1hua_static "Most of them are easily lovable as well!"
+                                                                                 m 3eka_static "But even if you don't have a favourite, you can tell me which one you like more at the moment, yes?"
+                                                                                 jump fav_pet_choice
 
     elif renpy.random.randint(1, 3) == 2:
         m 3eub_static "did you know it's {i}almost{/i} impossible for most people to lick their own elbow?"
@@ -187,6 +188,7 @@ label fav_pet_choice:
                                         m 2hksdlb_static "What a torpid speed they go by..."
                                         m 2hua_static "Those sure are some engaging facts, right? [player]? I'm glad I got to talk about them with you!"
                                         m 5eua_static "Well then! Let's keep going now, shall we?"
+                                        pass
 
                         "\"Tigerfishes?\"":
                                         m 5eub_static "No~ [player], "
@@ -196,6 +198,7 @@ label fav_pet_choice:
                                         m 2hksdlb_static "What a torpid speed they go by..."
                                         m 2hua_static "Those sure are some engaging facts, right? [player]? I'm glad I got to talk about them with you!"
                                         m 5eua_static "Well then! Let's keep going now, shall we?"
+                                        pass
 
                         "\"Seahorses?\"":
                                         m 2hua_static "That is correct! [player]!"
@@ -208,29 +211,30 @@ label fav_pet_choice:
                                         m 1hub_static "I'm still glad you got it right, though! That doesn't mean I would ever be disappointed if you didn't get it correctly,"
                                         extend 4hua_static " I'm more then happy to tell you about the right answer."
                                         m 5eua_static "Well, let's keep going now, shall we?"
+                                        pass
 
                         "\"Greenland sharks?\"":
-                                        m 1eud_static "Ah...{w=1}"
-                                        extend 2hksdlb_static "though that might not be the best answer according to certain searches on the internet..."
-                                        m 3hua_static "You're not completely wrong, [player]. They are known as the sleeper shark for its sluggish pace, one of the slowest swimming sharks in the world."
-                                        m 3eud_static "According to what I know, though, the slowest fish is actually a seahorse. It swims so slowly that a person can barely tell it is moving!"
-                                        m 3eub_static "The slowest is the Dwarf Seahorse, which takes about {i}one hour{/i} to travel {i}five feet{/i}!"
-                                        m 2hksdlb_static "What a torpid speed they go by..."
-                                        m 2hua_static "You know, [player], you really outsmarted me with that answer, not that it's a bad thing!"
-                                        m 2eka_static "I enjoy spending time with you a lot, really."
-                                        m 5eua_static "Well, let's keep going now, shall we?"
-                    pass
+                                               m 1eud_static "Ah...{w=1}"
+                                               extend 2hksdlb_static "though that might not be the best answer according to certain searches on the internet..."
+                                               m 3hua_static "You're not completely wrong, [player]. They are known as the sleeper shark for its sluggish pace, one of the slowest swimming sharks in the world."
+                                               m 3eud_static "According to what I know, though, the slowest fish is actually a seahorse. It swims so slowly that a person can barely tell it is moving!"
+                                               m 3eub_static "The slowest is the Dwarf Seahorse, which takes about {i}one hour{/i} to travel {i}five feet{/i}!"
+                                               m 2hksdlb_static "What a torpid speed they go by..."
+                                               m 2hua_static "You know, [player], you really outsmarted me with that answer, not that it's a bad thing!"
+                                               m 2eka_static "I enjoy spending time with you a lot, really."
+                                               m 5eua_static "Well, let's keep going now, shall we?"
+                                               pass
 
         "\"Birds.\"":
-                m 1eud_static "Ohhh! "
-                extend 2hua_static "Birdies~!"
-                m 2hub_static "Were you aware that my favourite bird is quetzal? Haha!"
-                m 3eub_static "Quetzals are a kind of bird that many consider among the world's most beautiful."
-                m 3eud_static "During mating season, male quetzals grow twin tail feathers that form an amazing train up to one metre long!"
-                m 3hua_static "Females do not have long trains, but they do share the brilliant blue, green, and red coloring of their mates."
-                m 2hua_static "Nice to know about, right? Haha!"
-                m 5eua_static "Thanks for listening~ [player], let's keep going now~"
-                pass
+                    m 1eud_static "Ohhh! "
+                    extend 2hua_static "Birdies~!"
+                    m 2hub_static "Were you aware that my favourite bird is quetzal? Haha!"
+                    m 3eub_static "Quetzals are a kind of bird that many consider among the world's most beautiful."
+                    m 3eud_static "During mating season, male quetzals grow twin tail feathers that form an amazing train up to one metre long!"
+                    m 3hua_static "Females do not have long trains, but they do share the brilliant blue, green, and red coloring of their mates."
+                    m 2hua_static "Nice to know about, right? Haha!"
+                    m 5eua_static "Thanks for listening~ [player], let's keep going now~"
+                    pass
 
         "\"Turtles.\"":
                       m 1eud_static "Ohh~ "
@@ -567,6 +571,7 @@ label choose2:
                                                  m 1ekc_static ".{w=0.4}.{w=0.4}.{w=0.4}.{w=0.4}.{w=0.4}.{w=0.4}"
                                                  m 1ekd_static ".{w=0.3}.{w=0.3}I apologise, [player], I had no idea.{w=0.3}.{w=0.3}"
                                                  m 1lksdlc_static ".{w=1}.{w=1}.{w=1}.{w=1}.{w=1}.{w=1}"
+                                                 play sound "Submods/DateMonikaSubmod/music/notice.mp3"
                                                  call screen dialog(message="Why would you have said that.\n∑¥∑ø¨¬¥ø¨˙å√´ßåˆ∂†å†", ok_action=Return())
                                                  m 1dsd_static ".{w=0.4}.{w=0.4}.{w=0.4}Nevermind."
                                                  pass
@@ -667,19 +672,18 @@ label lake_water_dialogue:
         m "Oh! [player]! Do you hear the ducks quacking?"
         m "They look soo~ cute swiming around, don't you think?"
         menu:
-            "{i}Feed them{/i}":
-                m "Oh my god! Look at them eating those crumbs!"
-                m "I'm so glad I get to spend time with you like this, [player]."
-                m "Hehe~"
-                pass
+            "Feed them":
+                       m "Oh my god! Look at them eating those crumbs!"
+                       m "I'm so glad I get to spend time with you like this, [player]."
+                       m "Hehe~"
+                       pass
     call screen clickaround_1()
 
 label park_stairs_go:
     scene park4 with wipeleft_scene
     pause 1
-    #put dialouge of monika reacting to the bg here
     m "...My god..!"
-    m "This view is.{w=0.4}.{w=0.4}.{w=0.4}breath-taking.{w=0.4}.{w=0.4}.{w=0.4}!" #these are examples
+    m "This view is.{w=0.4}.{w=0.4}.{w=0.4}breath-taking.{w=0.4}.{w=0.4}.{w=0.4}!"
     m ".{w=0.4}.{w=0.4}I'm so glad we came up here, [player].{w=0.4}.{w=0.4}!"
     pause 0.5
     call screen clickaround_3()
@@ -715,7 +719,10 @@ label swimming_dialogue:
         call screen clickaround_3()
 
 label waterfalls_dialogue:
-    m "insert water sounds thanks"
+    play sound "Submods/DateMonikaSubmod/music/waterfall.mp3"
+    m "This may have been the second best view I've ever laid my eyes on."
+    m "..And you already know what's the best view to me already, don't you, [player]?~"
+    m "Hehe~"
     call screen clickaround_3()
 
 label go_back_to_park_lake: #To lazy to make something smart. This is the easiest way of doing it
