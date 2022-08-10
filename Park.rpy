@@ -672,7 +672,7 @@ label lake_water_dialogue:
         m "Oh! [player]! Do you hear the ducks quacking?"
         m "They look soo~ cute swiming around, don't you think?"
         menu:
-            "Feed them":
+            "{i}Feed them{/i}":
                        m "Oh my god! Look at them eating those crumbs!"
                        m "I'm so glad I get to spend time with you like this, [player]."
                        m "Hehe~"
