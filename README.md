@@ -3,12 +3,12 @@ Wilt3rPV, Wowm
 
 Tutorial if needed.
 
-1. Click Code
+1. Click Code.
 <img width="980" alt="Screenshot 2022-08-23 at 7 30 06 PM" src="https://user-images.githubusercontent.com/90627231/186147075-4d073e17-713d-464a-8372-8206c473700c.png">
 
-2. Click Download zip
+2. Click Download zip.
 
-3.Go to your MAS (Monika After Story) folder.
+3. Go to your MAS (Monika After Story) folder.
 <img width="603" alt="Screenshot 2022-08-23 at 7 33 12 PM" src="https://user-images.githubusercontent.com/90627231/186147603-eddf0e7c-35b9-4a3b-b0b6-e2014acbd7fd.png">
 
 4. game -> Submods
