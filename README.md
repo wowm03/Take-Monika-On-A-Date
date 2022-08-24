@@ -3,8 +3,7 @@ Wilt3rPV, Wowm
 
 Tutorial if needed.
 
-1. Click Code.
-<img width="980" alt="Screenshot 2022-08-23 at 7 30 06 PM" src="https://user-images.githubusercontent.com/90627231/186147075-4d073e17-713d-464a-8372-8206c473700c.png">
+1. Go to Release: https://github.com/wowm03/DateMonikaSubmod/releases/download/Latest/DateMonikaSubmod-1.0.zip
 
 2. Click Download zip.
 
