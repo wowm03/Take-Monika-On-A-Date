@@ -17,4 +17,4 @@ Tutorial if needed.
 5. Go to your downloads and unzip the zip file.
 <img width="603" alt="Screenshot 2022-08-23 at 7 34 07 PM" src="https://user-images.githubusercontent.com/90627231/186147792-5e31497a-5e63-4f96-9b3a-8008febe5fda.png">
 
-6. Drag the file to your submods folder from MAS.
+6. Drag the folder Date_Monika_Submod to your submods folder of MAS.
