@@ -11,13 +11,13 @@ label park:
     show monika 3eua_static at t11
     m "We've arrived! This park seems fairly nice, doesn't it?"
     menu:
-        "\"It does.{w=0.4}.{w=0.4}\"":
-                                     show monika 1hua_static at t11
+        "\"It does.\"":
+                      show monika 1hua_static at t11
 
-                                     menu:
-                                         "\"Then, would you like to take a walk together?\"":
-                                                                                            show monika 1eud_static at t11
-                                                                                            pass
+                      menu:
+                          "\"Then, would you like to take a walk together?\"":
+                                                                             show monika 1eud_static at t11
+                                                                             pass
 
     m 1eub_static "Oh! Of course, [mas_get_player_nickname()]."
     m 5eua_static "Let's go then!"
@@ -36,21 +36,21 @@ label park:
     m 3dsd_static "So.{w=0.4}.{w=0.4}.{w=0.4}.{nw}"
 
     if renpy.random.randint(1, 3) == 1:
-        m 3eud_static "did you know you can’t hold your nose and hum?"
+        m 3eud_static "Did you know you can’t hold your nose and hum?"
         m 3eua_static "Don’t believe it? Give it a try!"
         show monika 1hua_static at t11
         pause 2
         m 1eub_static "It's just as I said, right?"
-        m 3eud_static "It is because when you hum, you are actually exhaling, so if both your mouth and your nose is closed, the air can’t escape."
+        m 3eud_static "It is because when you hum, you are actually exhaling, so if both your mouth and your nose are closed, the air can’t escape."
         m 3hua_static "So, although you can hum for a very brief few second or two, you will be forced to open your mouth and catch your breath."
         m 2eub_static "Ahaha~ that was fun, no?"
         m 5eua_static "Well then, let's keep going now, [mas_get_player_nickname()]!"
         jump park_continue
 
     elif renpy.random.randint(1, 3) == 1:
-        m 1eud_static "may I know what your favourite pet is?{nw}"
+        m 1eud_static "May I know what your favourite pet is?{nw}"
         menu:
-            m "may I know what your favourite pet is?{fast}"
+            m "May I know what your favourite pet is?{fast}"
 
             "\"Sure.\"":
                        jump fav_pet_choice
@@ -75,7 +75,7 @@ label park:
                                                                                  jump fav_pet_choice
 
     elif renpy.random.randint(1, 3) == 2:
-        m 3eub_static "did you know it's {i}almost{/i} impossible for most people to lick their own elbow?"
+        m 3eub_static "Did you know it's {i}almost{/i} impossible for most people to lick their own elbow?"
         m 2hua_static ".{w=0.4}.{w=0.4}.{w=0.4}.{w=0.4}.{w=0.4}.{w=0.4}.{w=0.4}.{w=0.4}"
         m 5eua_static "I bet you tried that immediately just now!"
         m 3hub_static "Well? Did you?"
@@ -137,7 +137,7 @@ label park:
                                                   jump park_continue
 
     else:
-        m 4eub_static "did you know that the Yellowstone National Park in Wyoming, Idaho, and Montana is the {i}oldest{/i} U.S. national park, founded in 1872?"
+        m 4eub_static "Did you know that the Yellowstone National Park in Wyoming, Idaho, and Montana is the {i}oldest{/i} U.S. national park, founded in 1872?"
         m 2hksdlb_static "It's unbelievable with how this park is still standing and being maintained, even after 150 years."
         m 2eub_static ".{w=0.2}.{w=0.2}Now that's fascinating about humans."
         m 1hksdlb_static "Sometimes, they can preserve some beautiful structures and monuments,{w=1} though in other times they just abandon it."
@@ -349,7 +349,6 @@ label bench_dialogue:
     call screen clickaround()
 
 label sky_dialogue:
-    #you can modify this however you want, add or remove dialouge if you want
     if renpy.random.randint(1, 2) == 1:
         "{i}What was with the glitch.{w=0.4}.{w=0.4}.{w=0.4}?{/i}"
 
@@ -413,7 +412,6 @@ label park_leave:
                             hotspot (16, 0, 133, 720) action Jump("tree_dialogue") hover_sound gui.hover_sound
                             hotspot (536, 271, 147, 168) action Jump("forest_continue") hover_sound gui.hover_sound
 
-                        timer 15.0 action Show(screen="dialog", message="Hint:\nClick around the background.\nClick on the ground to go back.", ok_action=Hide("dialog"))
                     return
 
         "Go back":
@@ -457,7 +455,7 @@ label forest_continue:
                    "\"Yes.\"":
                              scene black
                              pause 2
-                             $ renpy.movie_cutscene("Submods/DateMonikaSubmod/Cafe-De-PVs-Guide.webm")
+                             $ renpy.movie_cutscene("Submods/DateMonikaSubmod/Cafe-De-PV-2000-Commercial.webm")
                              pause 1
                              jump park_leave
 
@@ -605,6 +603,7 @@ label choose2:
                                   m "Are you sure?{fast}"
 
                                   "\"Yes.\"":
+                                            m 1lksdla_static "...Alright."
                                             show monika 1eka_static
                                             show black zorder 100 with Dissolve(5.0, alpha=True)
                                             stop music fadeout 2
@@ -639,7 +638,6 @@ label choose2:
             hotspot (830, 304, 391.7, 160.96) action Jump("lake_water_dialogue") hover_sound gui.hover_sound
             hotspot (185, 552, 299.01, 166.92) action Jump("park_end") hover_sound gui.hover_sound
 
-        timer 15.0 action Show(screen="dialog", message="Hint:\nClick around the background.\nClick on the road to continue.", ok_action=Hide("dialog"))
     return
 
 label park_stairs_dialogue:
@@ -696,7 +694,6 @@ label park_stairs_go:
             hotspot (965, 224, 194, 156) action Jump("waterfalls_dialogue") hover_sound gui.hover_sound
             hotspot (108, 625, 328, 94) action Jump("go_back_to_park_lake") hover_sound gui.hover_sound
 
-        timer 15.0 action Show(screen="dialog", message="Hint:\nClick around the background.\nClick on the bridge to go back.", ok_action=Hide("dialog"))
     return
 
 label cannot_go_there:

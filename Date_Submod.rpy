@@ -13,7 +13,7 @@ init -989 python:
     if store.mas_submod_utils.isSubmodInstalled("Submod Updater Plugin"):
         store.sup_utils.SubmodUpdater(
             submod="Take Monika On A Date",
-            user_name="Wilt3r",
+            user_name="Wilt3rPV",
             repository_name="DateMonikaSubmod",
             update_dir="",
             attachment_id=None
@@ -25,10 +25,10 @@ init 5 python:
     addEvent(Event(persistent.event_database,eventlabel="pick_date",category=['Dates'],prompt="Let's go on a date",pool=True,unlocked=True))
 
 
-#Choose where to go no a date
+#Choose where to go for the date
 label pick_date:
     m 1sublb "We're going on a date?"
-    m 3hub "Okay!"
+    m 3hub "Sounds exciting~!"
     m 1eua "Where do you want to go for our date?{nw}"
 
     menu:
@@ -40,6 +40,7 @@ label pick_date:
               return
 
         "Park":
+              m 6hub "Alright, let's go!"
               window hide
               show black zorder 100 with Dissolve(5.0, alpha=True)
               call park
