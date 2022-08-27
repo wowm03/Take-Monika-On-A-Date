@@ -41,7 +41,7 @@ label park:
         show monika 1hua_static at t11
         pause 2
         m 1eub_static "It's just as I said, right?"
-        m 3eud_static "It is because when you hum, you are actually exhaling, so if both your mouth and your nose are closed, the air can’t escape."
+        m 3eud_static "It is because when you hum, you are actually exhaling, so if both your mouth and your nose is closed, the air can’t escape."
         m 3hua_static "So, although you can hum for a very brief few second or two, you will be forced to open your mouth and catch your breath."
         m 2eub_static "Ahaha~ that was fun, no?"
         m 5eua_static "Well then, let's keep going now, [mas_get_player_nickname()]!"
@@ -603,7 +603,6 @@ label choose2:
                                   m "Are you sure?{fast}"
 
                                   "\"Yes.\"":
-                                            m 1lksdla_static "...Alright."
                                             show monika 1eka_static
                                             show black zorder 100 with Dissolve(5.0, alpha=True)
                                             stop music fadeout 2
