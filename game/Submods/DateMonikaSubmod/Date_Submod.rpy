@@ -4,7 +4,7 @@ init -990 python:
         author="Wilt3r",
         name="Take Monika On A Date",
         description="Adds a button to take Monika on a date here in the game!",
-        version="1.0.0"
+        version="1.0.1"
     )
 
 
