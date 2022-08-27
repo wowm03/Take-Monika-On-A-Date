@@ -40,7 +40,6 @@ label pick_date:
               return
 
         "Park":
-              m 6hub "Alright, let's go!"
               window hide
               show black zorder 100 with Dissolve(5.0, alpha=True)
               call park
