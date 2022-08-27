@@ -3,8 +3,8 @@ init -990 python:
     store.mas_submod_utils.Submod(
         author="Wilt3r",
         name="Take Monika On A Date",
-        description="Adds a button so you can take Monika on a date here in the game!",
-        version="1.0.0"
+        description="A submod for you to take Monika on a date!",
+        version="1.0.1"
     )
 
 
