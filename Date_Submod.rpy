@@ -3,8 +3,8 @@ init -990 python:
     store.mas_submod_utils.Submod(
         author="Wilt3r",
         name="Take Monika On A Date",
-        description="Adds a button so you can take Monika on a date here in the game!",
-        version="1.0.0"
+        description="Adds a button to take Monika on a date here in the game!",
+        version="1.0.1"
     )
 
 
@@ -13,7 +13,7 @@ init -989 python:
     if store.mas_submod_utils.isSubmodInstalled("Submod Updater Plugin"):
         store.sup_utils.SubmodUpdater(
             submod="Take Monika On A Date",
-            user_name="Wilt3rPV",
+            user_name="wowm03",
             repository_name="DateMonikaSubmod",
             update_dir="",
             attachment_id=None
