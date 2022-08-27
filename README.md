@@ -16,7 +16,7 @@ This submod is still under development and it will have more features and more d
 
 ## Tutorial if needed
 
-1. Go to Release: https://github.com/wowm03/DateMonikaSubmod/releases/download/Latest/TakeMonikaOnADate-1.0.1.zip
+1. Go to Release: https://github.com/wowm03/DateMonikaSubmod/releases/download/Latest/DateMonikaSubmod-1.0.1.zip
 
 2. Click Download zip.
 
