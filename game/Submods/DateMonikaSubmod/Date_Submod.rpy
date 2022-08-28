@@ -7,7 +7,6 @@ init -990 python:
         version="1.0.1"
     )
 
-
 #Register the updater
 init -989 python:
     if store.mas_submod_utils.isSubmodInstalled("Submod Updater Plugin"):
