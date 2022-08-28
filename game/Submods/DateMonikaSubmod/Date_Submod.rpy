@@ -12,7 +12,7 @@ init -989 python:
     if store.mas_submod_utils.isSubmodInstalled("Submod Updater Plugin"):
         store.sup_utils.SubmodUpdater(
             submod="Take Monika On A Date",
-            user_name="wowm03",
+            user_name="Wowm",
             repository_name="DateMonikaSubmod",
             update_dir="",
             attachment_id=None
