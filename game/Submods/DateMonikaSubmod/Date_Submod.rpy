@@ -4,20 +4,18 @@ init -990 python:
         author="Wilt3r",
         name="Take Monika On A Date",
         description="Adds a button to take Monika on a date here in the game!",
-        version="1.0.1"
+        version="1.0.1",
+        settings_pane="date_settings"
     )
 
-#Register the updater
+# Register the updater
 init -989 python:
     if store.mas_submod_utils.isSubmodInstalled("Submod Updater Plugin"):
         store.sup_utils.SubmodUpdater(
             submod="Take Monika On A Date",
-            user_name="Wowm",
-            repository_name="DateMonikaSubmod",
-            update_dir="",
-            attachment_id=None
+            user_name="wowm03",
+            repository_name="DateMonikaSubmod"
         )
-
 
 #Adds the Dates option
 init 5 python:
