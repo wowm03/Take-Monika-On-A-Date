@@ -13,7 +13,7 @@ init -989 python:
         store.sup_utils.SubmodUpdater(
             submod="Take Monika On A Date",
             user_name="wowm03",
-            repository_name="DateMonikaSubmod"
+            repository_name="Take-Monika-On-A-Date"
         )
 
 #Adds the Dates option
