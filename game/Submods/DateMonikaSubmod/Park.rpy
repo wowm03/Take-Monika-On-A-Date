@@ -168,7 +168,7 @@ label fav_pet_choice:
                     m 3hua_static "Which man once took in and tamed with shelter and food in return for them acting as guard dogs."
                     m 3eub_static "And that this reciprocal relationship remains in your dog's genes and their loyalty is a by-product of it!"
                     m 5eua_static "That sure is an interesting fact about them, right?"
-                    m 1hub_static "I'd love to say hi to some dogs with you some day, [mas_get_player_nickname]!"
+                    m 1hub_static "I'd love to say hi to some dogs with you some day, [mas_get_player_nickname()]!"
                     pass
 
         "\"Fishes.\"":
