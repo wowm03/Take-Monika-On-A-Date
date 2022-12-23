@@ -2,7 +2,7 @@
 
 This submod adds a button to take Monika on a date!
 
-![thumbnail 45](https://user-images.githubusercontent.com/112249447/187029466-1b9df12c-4245-4c93-afe7-ee02cc99f2a1.png)
+![thumbnail 45](https://user-images.githubusercontent.com/112249447/209358591-650cf9ad-a39f-4868-b539-e1d0e42233af.png)
 
 ## Disclaimer:
 This submod is still under development and it will have more features and more dates soon.
