@@ -1,8 +1,16 @@
 #The Park Date
+
+init python:
+    import webbrowser
+
 label park:
     $HKBHideButtons()
     stop music
-    play music "Submods/DateMonikaSubmod/music/Morning-Ambience.mp3"
+    if renpy.random.randint(1, 2) == 1:
+        play music "Submods/DateMonikaSubmod/music/the-nutcracker.mp3"
+    elif renpy.random.randint(1, 2) == 1:
+        play music "Submods/DateMonikaSubmod/music/jingle-bells-jazz.mp3"
+    #play music "Submods/DateMonikaSubmod/music/Morning-Ambience.mp3"
     hide black
     scene park
     $ bench = True
@@ -390,7 +398,7 @@ label park_leave:
                                                                      "Yes.":
                                                                            scene black
                                                                            pause 2
-                                                                           $ renpy.movie_cutscene("Submods/DateMonikaSubmod/Cafe-De-PVs-Guide.webm")
+                                                                           $ webbrowser.open("https://www.youtube.com/watch?v=ujN99M7z8k4")
                                                                            pause 1
                                                                            jump park_leave
 
@@ -455,7 +463,7 @@ label forest_continue:
                       "Yes.":
                             scene black
                             pause 2
-                            $ renpy.movie_cutscene("Submods/DateMonikaSubmod/Cafe-De-PV-2000-Commercial.webm")
+                            $ webbrowser.open("https://www.youtube.com/watch?v=w_9wueKiSv4")
                             pause 1
                             jump park_leave
 
@@ -486,7 +494,7 @@ label forest_continue:
                       "Yes.":
                             scene black
                             pause 2
-                            $ renpy.movie_cutscene("Submods/DateMonikaSubmod/Cafe-De-PVs-Guide.webm")
+                            $ webbrowser.open("https://www.youtube.com/watch?v=ujN99M7z8k4")
                             pause 1
                             jump park_leave
 
@@ -698,8 +706,11 @@ label park_stairs_go:
     return
 
 label cannot_go_there:
-    play sound "Submods/DateMonikaSubmod/music/notice.mp3"
-    call screen dialog(message="Error: You are prohibited to continue any further.", ok_action=Return())
+    #play sound "Submods/DateMonikaSubmod/music/notice.mp3"
+    #call screen dialog(message="Error: You are prohibited to continue any further.", ok_action=Return())
+    $ webbrowser.open("https://www.youtube.com/watch?v=F73yedB1SW0")
+    pause 0.1
+    call screen dialog(message="Happy Holidays!", ok_action=Return())
     pause 0.5
     call screen clickaround_3()
 
