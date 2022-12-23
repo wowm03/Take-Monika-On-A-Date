@@ -1,4 +1,4 @@
-# Take Monika On A Date (1.0.2)
+# Take Monika On A Date (1.0.3)
 
 This submod adds a button to take Monika on a date!
 
