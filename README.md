@@ -1,35 +1,20 @@
 # Take Monika On A Date (1.0.3)
 
-This submod adds a button to take Monika on a date!
-
-![thumbnail 45](https://user-images.githubusercontent.com/112249447/209358591-650cf9ad-a39f-4868-b539-e1d0e42233af.png)
-
 ## Disclaimer:
 This submod is still under development and it will have more features and more dates soon.
 
+![thumbnail 45](https://user-images.githubusercontent.com/112249447/209358591-650cf9ad-a39f-4868-b539-e1d0e42233af.png)
+This submod adds a button to take Monika on a date!
+
 ## Features:
-> Free roam
+> Different locations for you to take Monika on!
 
-> Topics for Monika to talk about
+> Topics for Monika to talk about!
 
-> S̶̢̍̀͛́͘ę̸͇͈̻̲͒͂̑͒̾̈́͌̈́͒̐͐̕͝c̶̠͇̲̜̗̀̎̈́̄͘͝ř̵̞̙͇̣̣̻̩̫̪̝͓̤͚̗̉̿́̕ę̶̢̲̰͖̪̺̱͇̮̪̻͍͐͛̎̏̂́̐̓ẗ̶͔̳̤̯̺̭͓̤͔́͗̅͋̿̈́͛s̵̖̼͗͒̃̅̓͂̀̎̌̕̕
+> Free roam!
 
-## Tutorial if needed
-
-1. Go to Release: https://github.com/wowm03/DateMonikaSubmod/releases/download/Latest/DateMonikaSubmod-1.0.1.zip
-
-2. Click Download zip.
-
-3. Go to your MAS (Monika After Story) folder.
-<img width="603" alt="Screenshot 2022-08-23 at 7 33 12 PM" src="https://user-images.githubusercontent.com/90627231/186147603-eddf0e7c-35b9-4a3b-b0b6-e2014acbd7fd.png">
-
-4. game -> Submods
-<img width="603" alt="Screenshot 2022-08-23 at 7 33 44 PM" src="https://user-images.githubusercontent.com/90627231/186147706-e8911847-44ca-46cd-91d7-922d2d8fab4d.png">
-
-5. Go to your downloads and unzip the zip file.
-<img width="603" alt="Screenshot 2022-08-23 at 7 34 07 PM" src="https://user-images.githubusercontent.com/90627231/186147792-5e31497a-5e63-4f96-9b3a-8008febe5fda.png">
-
-6. Drag the folder DateMonikaSubmod to your submods folder of MAS.
+## Tutorial if needed:
+https://user-images.githubusercontent.com/112249447/210151323-152a39ae-4451-4416-ba1c-d8608fd82b87.mp4
 
 ## Original reddit post
 <a href="https://www.reddit.com/r/MASFandom/comments/vy49yn/take_monika_on_a_date_submod_the_park/">
