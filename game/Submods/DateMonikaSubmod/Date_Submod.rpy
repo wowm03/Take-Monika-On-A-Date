@@ -4,10 +4,10 @@ init -990 python:
         author="Wilt3r",
         name="Take Monika On A Date",
         description="Adds a button to take Monika on a date here in the game!",
-        version="1.0.3"
+        version="1.0.4"
     )
 
-# Register the updater
+#Register the updater
 init -989 python:
     if store.mas_submod_utils.isSubmodInstalled("Submod Updater Plugin"):
         store.sup_utils.SubmodUpdater(
@@ -20,6 +20,36 @@ init -989 python:
 init 5 python:
     addEvent(Event(persistent.event_database,eventlabel="pick_date",category=['Dates'],prompt="Let's go on a date",pool=True,unlocked=True))
 
+#New topic! (new year)
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="newyearfireworks",
+            prompt="It's 2023!",
+            category=["misc"],
+            start_date=datetime.date(2023, 1, 1),
+            end_date=datetime.date(2023, 2, 10),
+            aff_range=(mas_aff.NORMAL, mas_aff.LOVE),
+            action=EV_ACT_PUSH
+        )
+    )
+
+#New years dialouge
+label newyearfireworks:
+    m 1eub "Hey [player]! "
+    extend 1sub "Happy New Year!"
+    m 3hub "It's 2023 now, I'm glad we got to spend time during new years!"
+    m 1dsd "Speaking of new years... "
+    extend 3sub "do you have fireworks at your place, [player]?"
+    m 2lkblb "Honestly speaking, it'd be great for us to watch the fireworks while going on a date, right?"
+    m 5dkbsb "I really wish we could do that together, shoulders touching, holding hands and all..."
+    m 5dkbfa ".{w=0.4}.{w=0.4}.{w=0.4}.{nw}"
+    m 5kkblb "I'm just really glad to be spending time with you this year right now, "
+    extend 7rublb "I'm sure we will be able to watch the blazing fireworks when I come to your reality!"
+    m 1fublb "If you'd like, we could go on a date right now~ hehe!"
+    m 1hubsb "Happy New Year, [player]! I love you~"
+    return
 
 #Choose where to go for the date
 label pick_date:
