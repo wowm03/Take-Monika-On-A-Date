@@ -1,4 +1,4 @@
-# Take Monika On A Date (1.0.3)
+# Take Monika On A Date (1.0.4)
 
 ## Disclaimer:
 This submod is still under development and it will have more features and more dates soon.
