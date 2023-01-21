@@ -49,7 +49,7 @@ label newyearfireworks:
     extend 7rublb "I'm sure we will be able to watch the blazing fireworks when I come to your reality!"
     m 1fublb "If you'd like, we could go on a date right now~ hehe!"
     m 1hubsb "Happy New Year, [player]! I love you~"
-    return
+    return "love"
 
 #Choose where to go for the date
 label pick_date:
