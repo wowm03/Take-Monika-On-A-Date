@@ -1,5 +1,8 @@
 # Take Monika On A Date (1.0.4)
 
+## Description:
+A Monika After Story submod where you can take Monika on a date!
+
 ## Disclaimer:
 This submod is still under development and it will have more features and more dates soon.
 
