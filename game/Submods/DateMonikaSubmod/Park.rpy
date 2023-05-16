@@ -6,10 +6,6 @@ init python:
 label park:
     $HKBHideButtons()
     stop music
-#    if renpy.random.randint(1, 2) == 1:
-#        play music "Submods/DateMonikaSubmod/music/the-nutcracker.mp3"
-#    elif renpy.random.randint(1, 2) == 1:
-#        play music "Submods/DateMonikaSubmod/music/jingle-bells-jazz.mp3"
     play music "Submods/DateMonikaSubmod/music/Morning-Ambience.mp3"
     hide black
     scene park
@@ -708,9 +704,6 @@ label park_stairs_go:
 label cannot_go_there:
     play sound "Submods/DateMonikaSubmod/music/notice.mp3"
     call screen dialog(message="Error: You are prohibited to continue any further.", ok_action=Return())
-#    $ webbrowser.open("https://www.youtube.com/watch?v=F73yedB1SW0")
-    pause 0.1
-    call screen dialog(message="Happy Holidays!", ok_action=Return())
     pause 0.5
     call screen clickaround_3()
 
@@ -734,7 +727,7 @@ label waterfalls_dialogue:
     m "Hehe~"
     call screen clickaround_3()
 
-label go_back_to_park_lake: #To lazy to make something smart. This is the easiest way of doing it
+label go_back_to_park_lake:
     scene park_lake with wipeleft_scene
     pause 0.5
     call screen clickaround_1()
