@@ -1,6 +1,6 @@
 # Take Monika On A Date (1.0.5)
 
-## _Thank You_
+## _On Haitus_
 
 ## Disclaimer:
 This submod is still under development and it will have more features and more dates soon.
